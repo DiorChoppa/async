@@ -22,7 +22,7 @@ while True:
     print('Before .accept()')
     #Принимаем входящее подключение
     client_socket, addr = server_socket.accept()
-    print('Connectino from', addr)
+    print('Connection from', addr)
 
     while True:
         # print('Before .recv()')
